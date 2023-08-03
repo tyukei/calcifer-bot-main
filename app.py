@@ -14,7 +14,7 @@ openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 col1, col2 = st.columns(2)
 
-col1.title("Reila")
+col1.title("Calcifer")
 col2.image(img2_path, width=300)
 col1.caption("by Kei")
 
