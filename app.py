@@ -67,7 +67,7 @@ if user_msg:
 
     # アシスタントのメッセージを表示
     response = response_chatgpt(user_msg)
-    with st.chat_message(ASSISTANT_NAME,avatar=img_path):
+    with st.chat_message(ASSISTANT_NAME):
         assistant_msg = ""
         assistant_response_area = st.empty()
         for chunk in response:
