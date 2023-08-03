@@ -16,11 +16,11 @@ col1, col2 = st.columns(2)
 
 col1.title("Reila")
 col2.image(img2_path, width=300)
-col1.caption("by KIT AI club")
+col1.caption("by Kei")
 
 # 定数定義
 USER_NAME = "user"
-ASSISTANT_NAME = "Reila"
+ASSISTANT_NAME = "Calcifer"
 
 
 def response_chatgpt(user_msg: str,):
